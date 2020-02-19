@@ -1,9 +1,8 @@
 FROM alpine:3.10
 
+MAINTAINER zhangmengjie "zhangmengjie@gmail.com"
 
 ENV TENGINE_VERSION 2.3.2
-
-# nginx: https://git.io/vSIyj
 
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
