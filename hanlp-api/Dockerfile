@@ -4,6 +4,6 @@ RUN pip install hanlp Flask uniout gevent
 
 WORKDIR /usr/src/myapp
 
-COPY ./main.py .
+COPY ./hanlp-api/main.py .
 
 CMD [ "python", "main.py" ]
